@@ -16,12 +16,12 @@ optional arguments:
 
 Example: 
 
-List on console
+List on console : 
 $ pg_objectlist --user=postgres --host=localhost --port=5434 --system-views=True
 
 
-Save to .csv format
+Save to .csv format : 
 $ pg_objectlist --user=postgres --host=localhost --port=5434 --system-views=True --file=mydata.csv
 
-Search object in all databases
+Search object in all databases : 
 $ pg_objectlist --user=postgres --host=localhost --port=5434 --system-views=True | grep userlogdetails_seq
